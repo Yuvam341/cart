@@ -6,8 +6,32 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.cart-item {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 20px 10px;
+  
+}
+/* .cart-item .left-block{
+  padding-left:1px;
+  width:30%;
+} */
+.cart-item .right-block {
+  padding: 0 20px;
+  width:70%;
+}
+.cart-item-actions {
+  margin-top: 20px;
+}
+.action-icons {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+.action-icons:hover {
+  cursor: pointer;
+}
+.Cart{
+  display: flex;
+  flex-direction: column;
 }
